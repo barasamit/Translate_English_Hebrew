@@ -44,7 +44,7 @@ def main():
                         if word.lower() == hebrew_translation.lower():
                             continue
                         st.write(f"{word} -> {hebrew_translation}")
-                        st.audio(audio_buffer, format='audio/mp3')
+                        # st.audio(audio_buffer, format='audio/mp3')
             else:
                 st.write("No words detected in the image.")
 
