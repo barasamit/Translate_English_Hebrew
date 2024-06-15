@@ -3,6 +3,7 @@ pandas
 numpy
 plotly
 altair
+sudo apt-get install tesseract-ocr
 pytesseract==0.3.8
 googletrans 
 gtts
