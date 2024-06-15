@@ -1,8 +1,5 @@
 streamlit
-pandas
-numpy
-plotly
-altair
-pytesseract==0.3.8
-googletrans 
+pytesseract
+googletrans==4.0.0-rc1
+Pillow
 gtts
