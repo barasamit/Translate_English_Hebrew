@@ -17,7 +17,7 @@ def translate_text(word, dest_language='he'):
 def text_to_audio(word):
     tts = gTTS(text=word, lang='en')
     audio_buffer = io.BytesIO()
-    tts.save(audio_buffer)
+    tts.write_to_fp(audio_buffer)
     audio_buffer.seek(0)
     return audio_buffer
 
